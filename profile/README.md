@@ -1,11 +1,3 @@
-﻿# Tethro
-
-> Tether your agents. Set them free when they're safe.
-
-The security control plane for autonomous AI coding agents. Sandbox every session in a microVM, review every diff with live-thread feedback, and sign every action to a human — before a rogue agent touches production.
-
-## What's here
-
 | Repo | What |
 |------|------|
 | [`tethro`](https://github.com/tethro/tethro) | Web console + landing page + docs + blog |
@@ -21,20 +13,3 @@ The security control plane for autonomous AI coding agents. Sandbox every sessio
 brew install tethro/tap/tethro
 tethro doctor
 ```
-
-## Quickstart
-
-```bash
-tethro run claude-code "add idempotency to the refund webhook"
-```
-
-## License
-
-Apache 2.0 — CLI, proxies, and WebSocket service are open source.
-The hosted console and enterprise features (SSO, SIEM, compliance) are commercial.
-
-## Links
-
-- Website: https://tethro.dev
-- Docs: https://tethro.dev/docs
-- Blog: https://tethro.dev/blog
